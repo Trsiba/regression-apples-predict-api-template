@@ -63,7 +63,7 @@ def _preprocess_data(data):
 
     feature_vector_df = feature_vector_df[(feature_vector_df['Commodities'] == 'APPLE GOLDEN DELICIOUS')]
     
-    predict_vector =             feature_vector_df[["Weight_Kg","Low_Price","High_Price","Sales_Total","Total_Qty_Sold","Total_Kg_Sold","Stock_On_Hand"]]
+    predict_vector =             feature_vector_df[['Weight_Kg','Low_Price','High_Price','Sales_Total',	'Total_Qty_Sold','Total_Kg_Sold','Stock_On_Hand','Month','Province_EASTERN_CAPE',	'Province_NATAL',	'Province_ORANGE_FREE_STATE',	'Province_TRANSVAAL',	'Province_W.CAPE-BERGRIVER_ETC',	'Province_WEST_COAST',	'Container_DT063',	'Container_EC120',	'Container_EF120',	'Container_EG140',	'Container_JE090',	'Container_JG110',	'Container_M4183',	'Container_M6125',	'Container_M9125',	'Size_Grade_1M',	'Size_Grade_1S',	'Size_Grade_1U',	'Size_Grade_1X',	'Size_Grade_2L',	'Size_Grade_2M',	'Size_Grade_2S',	'Size_Grade_2U',	'Size_Grade_2X',	'Season_Spring',	'Season_Summer',	'Season_Winter']]
                                 
     # ------------------------------------------------------------------------
 
